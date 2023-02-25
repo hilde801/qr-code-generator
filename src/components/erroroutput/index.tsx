@@ -1,7 +1,8 @@
 import { FC } from "react";
 import IconWarningTriangle from "../../icons/iconwarningtriangle";
+import ErrorOutputProps from "./erroroutputprops";
 
-const ErrorOutput: FC<Error> = (props: Error) => {
+const ErrorOutput: FC<ErrorOutputProps> = (props: ErrorOutputProps) => {
 	return (
 		<>
 			<div>
@@ -9,7 +10,7 @@ const ErrorOutput: FC<Error> = (props: Error) => {
 				<strong>Error</strong>
 			</div>
 
-			<p>{props.message}</p>
+			<p>{props.errorMessage}</p>
 		</>
 	);
 };
