@@ -1,12 +1,20 @@
-import { FC } from "react";
+import { FC, useRef, useState } from "react";
 import UserInput from "../userinput";
+import { encodeInputToQRCode } from "./helpers";
 
 const App: FC = () => {
-	const onInputUserInput = (text: string) => {};
+	const canvasRef = useRef<HTMLCanvasElement>(document.createElement("canvas"));
+
+	const [result, setResult] = useState<any>(async () => await encodeInputToQRCode(canvasRef.current, ""));
+
+	const onInputUserInput = async (text: string): Promise<void> => {
+		setResult(await encodeInputToQRCode(canvasRef.current, text));
+	};
 
 	return (
 		<>
 			<UserInput onInput={onInputUserInput} />
+			<output>{typeof result === "string" ? <p>Success</p> : <p>{(result as Error).message}</p>}</output>
 		</>
 	);
 };
