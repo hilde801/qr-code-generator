@@ -16,7 +16,7 @@ const App: FC = () => {
 	return (
 		<>
 			<UserInput onInput={onInputUserInput} />
-			<output>{typeof result === "string" ? <QRCodeOutput dataURL={result} /> : <ErrorOutput {...result}/>}</output>
+			<output>{typeof result === "string" ? <QRCodeOutput dataURL={result} /> : <ErrorOutput {...result} />}</output>
 		</>
 	);
 };

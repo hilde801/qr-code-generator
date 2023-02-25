@@ -5,7 +5,7 @@ const WatermarkLink: FC<WatermarkLinkProps> = (props: WatermarkLinkProps) => {
 	return (
 		<a href={props.href} download={props.download}>
 			<props.icon />
-			<a>{props.text}</a>
+			<p>{props.text}</p>
 			<props.icon />
 		</a>
 	);

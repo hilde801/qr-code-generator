@@ -8,7 +8,7 @@ const ErrorOutput: FC<Error> = (props: Error) => {
 				<IconWarningTriangle />
 				<strong>Error</strong>
 			</div>
-			
+
 			<p>{props.message}</p>
 		</>
 	);
