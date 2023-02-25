@@ -1,10 +1,12 @@
 import { FC } from "react";
+import UserInput from "../userinput";
 
 const App: FC = () => {
+	const onInputUserInput = (text: string) => {};
+
 	return (
 		<>
-			<h1>Hello, World!</h1>
-			<p>This app is still under development...</p>
+			<UserInput onInput={onInputUserInput} />
 		</>
 	);
 };
