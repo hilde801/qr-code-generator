@@ -1,4 +1,5 @@
 import { FC, useRef, useState } from "react";
+import ErrorOutput from "../erroroutput";
 import QRCodeOutput from "../qrcodeoutput";
 import UserInput from "../userinput";
 import { encodeInputToQRCode } from "./helpers";
@@ -15,7 +16,7 @@ const App: FC = () => {
 	return (
 		<>
 			<UserInput onInput={onInputUserInput} />
-			<output>{typeof result === "string" ? <QRCodeOutput dataURL={result} /> : <p>{(result as Error).message}</p>}</output>
+			<output>{typeof result === "string" ? <QRCodeOutput dataURL={result} /> : <ErrorOutput {...result}/>}</output>
 		</>
 	);
 };
