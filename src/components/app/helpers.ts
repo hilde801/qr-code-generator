@@ -1,9 +1,14 @@
 import { toDataURL } from "qrcode";
+import QRCodeResult from "./qrcoderesult";
 
-export const encodeInputToQRCode = async (canvas: HTMLCanvasElement, text: string): Promise<any> => {
-	try {
-		return await toDataURL(canvas, text);
-	} catch (error) {
-		return error as Error;
-	}
-};
+export const encodeInputToQRCode = (text?: string): Promise<QRCodeResult> =>
+	new Promise<QRCodeResult>(async (resolve) => {
+		const canvas: HTMLCanvasElement = document.createElement("canvas");
+
+		toDataURL(canvas, text ?? "", (error, dataURL) => {
+			return resolve({
+				isSuccess: error == null,
+				result: error == null ? dataURL : (error as Error).message
+			});
+		});
+	});
