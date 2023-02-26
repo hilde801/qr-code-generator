@@ -1,7 +1,7 @@
 type WatermarkLinkProps = {
 	href: string;
 	text: string;
-	download: string;
+	download?: string;
 	icon: any;
 };
 
