@@ -9,5 +9,6 @@
 	.outputContainer {
 		border-top: 1px solid var(--color-background-2);
 		flex-direction: row;
+		align-items: center;
 	}
 }
