@@ -19,8 +19,11 @@
 	opacity: 10%;
 }
 
-.watermarkLink:hover {
+.watermarkLink:hover,
+.watermarkLink:focus {
 	color: var(--color-background-1);
 	background-color: var(--color-foreground-1);
 	border: 2px solid var(--color-foreground-1);
+	outline: var(--color-foreground-1) solid 2px;
+	outline-offset: 2px;
 }
