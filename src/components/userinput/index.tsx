@@ -23,13 +23,13 @@ const UserInput: FC<UserInputProps> = (props: UserInputProps) => {
 			<textarea onInput={onInputTextArea} className={Style.textArea}></textarea>
 
 			<div className={Style.bottomToolbar}>
-				<button type={"reset"} onClick={onClickResetButton}>
+				<button type={"reset"} onClick={onClickResetButton} className={Style.clearButton}>
 					<IconTrash />
 				</button>
 
 				<div className={Style.spacer}></div>
 
-				<p>{`Input length: ${inputLength}`}</p>
+				<p className={Style.charCounter}>{`${inputLength} character(s)`}</p>
 			</div>
 		</form>
 	);
