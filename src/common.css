@@ -25,6 +25,7 @@
 	display: grid;
 	grid-template-columns: auto calc(256px + 2rem);
 	grid-template-rows: auto max-content;
+	height: 100vh;
 }
 
 @media (prefers-color-scheme: dark) {
