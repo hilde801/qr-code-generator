@@ -1,3 +1,6 @@
+// This file is a part of QR Code Generator (https://github.com/hilde801/qr-code-generator)
+// Copyright (c) 2023 Hilder Gill (hilde801) <hildergill@gmail.com>
+
 import { FC, useEffect, useState } from "react";
 import AppDetails from "../appdetails";
 import ErrorOutput from "../erroroutput";
