@@ -1,15 +1,15 @@
 {
 	"name": "qr-code-generator",
 	"displayName": "QR Code Generator",
-	"private": true,
-	"version": "0.0.0",
-	"type": "module",
+	"description": "A simple QR code generator web app",
 	"author": {
 		"name": "Hilder Gill",
 		"email": "hildergill@gmail.com",
 		"url": "https://github.com/hilde801"
 	},
 	"repository": "https://github.com/hilde801/qr-code-generator",
+	"version": "0.0.0",
+	"license": "Apache-2.0",
 	"scripts": {
 		"dev": "npx vite",
 		"build": "npx tsc && npx vite build",
