@@ -21,6 +21,12 @@
 	color: var(--color-foreground-1);
 }
 
+#root {
+	display: grid;
+	grid-template-columns: auto calc(256px + 2rem);
+	grid-template-rows: auto max-content;
+}
+
 @media (prefers-color-scheme: dark) {
 	:root {
 		--color-background-1: hsl(225, 16%, 24%);
