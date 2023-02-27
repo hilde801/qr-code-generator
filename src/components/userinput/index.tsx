@@ -1,6 +1,7 @@
 import { FC, FormEvent, FormEventHandler, MouseEventHandler, useState } from "react";
 import IconTrash from "../../icons/icontrash";
 import UserInputProps from "./props";
+import Style from "./style.module.css";
 
 const UserInput: FC<UserInputProps> = (props: UserInputProps) => {
 	const [inputLength, setInputLength] = useState<number>(0);
@@ -18,14 +19,18 @@ const UserInput: FC<UserInputProps> = (props: UserInputProps) => {
 	};
 
 	return (
-		<form>
-			<textarea onInput={onInputTextArea}></textarea>
+		<form className={Style.userInput}>
+			<textarea onInput={onInputTextArea} className={Style.textArea}></textarea>
 
-			<button type={"reset"} onClick={onClickResetButton}>
-				<IconTrash />
-			</button>
+			<div className={Style.bottomToolbar}>
+				<button type={"reset"} onClick={onClickResetButton}>
+					<IconTrash />
+				</button>
 
-			<p>{`Input length: ${inputLength}`}</p>
+				<div className={Style.spacer}></div>
+
+				<p>{`Input length: ${inputLength}`}</p>
+			</div>
 		</form>
 	);
 };
