@@ -1,12 +1,16 @@
-import { FC, useEffect, useRef, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import AppDetails from "../appdetails";
 import ErrorOutput from "../erroroutput";
 import QRCodeOutput from "../qrcodeoutput";
 import UserInput from "../userinput";
 import { encodeInputToQRCode } from "./helpers";
+import QRCodeResult from "./qrcoderesult";
 
 const App: FC = () => {
-	const [result, setResult] = useState<any>({});
+	const [result, setResult] = useState<QRCodeResult>({
+		isSuccess: false,
+		result: ""
+	});
 
 	useEffect(() => {
 		encodeInputToQRCode().then((value) => setResult(value));
@@ -20,7 +24,7 @@ const App: FC = () => {
 		<>
 			<UserInput onInput={onInputUserInput} />
 
-			<output>{typeof result === "string" ? <QRCodeOutput dataURL={result} /> : <ErrorOutput errorMessage={result.result} />}</output>
+			<output>{result.isSuccess ? <QRCodeOutput dataURL={result.result} /> : <ErrorOutput errorMessage={result.result} />}</output>
 
 			<AppDetails />
 		</>
