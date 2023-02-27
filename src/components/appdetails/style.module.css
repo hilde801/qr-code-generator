@@ -9,3 +9,9 @@
 .appTitle {
 	font-size: 1.5rem;
 }
+
+@media (max-width: 799px) {
+	.appDetails {
+		display: none;
+	}
+}
