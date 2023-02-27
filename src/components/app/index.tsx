@@ -5,6 +5,7 @@ import QRCodeOutput from "../qrcodeoutput";
 import UserInput from "../userinput";
 import { encodeInputToQRCode } from "./helpers";
 import QRCodeResult from "./qrcoderesult";
+import Style from "./style.module.css";
 
 const App: FC = () => {
 	const [result, setResult] = useState<QRCodeResult>({
@@ -24,7 +25,9 @@ const App: FC = () => {
 		<>
 			<UserInput onInput={onInputUserInput} />
 
-			<output>{result.isSuccess ? <QRCodeOutput dataURL={result.result} /> : <ErrorOutput errorMessage={result.result} />}</output>
+			<output className={Style.outputContainer}>
+				{result.isSuccess ? <QRCodeOutput dataURL={result.result} /> : <ErrorOutput errorMessage={result.result} />}
+			</output>
 
 			<AppDetails />
 		</>

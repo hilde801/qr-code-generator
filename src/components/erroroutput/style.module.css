@@ -1,0 +1,11 @@
+.errorTitle {
+	display: flex;
+	flex-direction: row;
+	gap: 0.2rem;
+	align-items: center;
+}
+
+.warningIcon {
+	width: 2rem;
+	height: 2rem;
+}
