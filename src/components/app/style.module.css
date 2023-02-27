@@ -4,3 +4,10 @@
 	gap: 1rem;
 	padding: 1rem;
 }
+
+@media (max-width: 799px) {
+	.outputContainer {
+		border-top: 1px solid var(--color-background-2);
+		flex-direction: row;
+	}
+}

@@ -45,3 +45,17 @@
 	width: 1.5rem;
 	height: 1.5rem;
 }
+
+@media (max-width: 799px) {
+	.userInput {
+		flex: 1;
+	}
+
+	.bottomToolbar {
+		border: none;
+	}
+
+	.textArea {
+		box-shadow: inset 0 -1px 1px hsla(0, 8%, 8%, 25%);
+	}
+}
