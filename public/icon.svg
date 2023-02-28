@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 <svg width="256" height="256" version="1.1" viewBox="0 0 67.733 67.733" xmlns="http://www.w3.org/2000/svg">
 	<g>
-		<rect x="7.4083" y="7.4083" width="52.917" height="52.917" fill="#333847"/>
+		<rect x="7.4083" y="7.4083" width="52.917" height="52.917" fill="#333847" />
 		<g fill="#22252f">
-			<rect x="7.4083" y="7.4083" width="52.917" height="10.583" stroke-width="1.3654"/>
-			<rect x="7.4083" y="49.742" width="52.917" height="10.583" stroke-width="1.3654"/>
-			<rect x="7.4083" y="17.992" width="10.583" height="31.75" stroke-width="1.2139"/>
-			<rect x="49.742" y="17.992" width="10.583" height="31.75" stroke-width="1.2139"/>
-			<rect x="28.575" y="28.575" width="10.583" height="10.583" stroke-width="1.8796"/>
+			<rect x="7.4083" y="7.4083" width="52.917" height="10.583" stroke-width="1.3654" />
+			<rect x="7.4083" y="49.742" width="52.917" height="10.583" stroke-width="1.3654" />
+			<rect x="7.4083" y="17.992" width="10.583" height="31.75" stroke-width="1.2139" />
+			<rect x="49.742" y="17.992" width="10.583" height="31.75" stroke-width="1.2139" />
+			<rect x="28.575" y="28.575" width="10.583" height="10.583" stroke-width="1.8796" />
 		</g>
 	</g>
 </svg>
