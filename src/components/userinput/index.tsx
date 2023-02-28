@@ -26,7 +26,7 @@ const UserInput: FC<UserInputProps> = (props: UserInputProps) => {
 
 	return (
 		<form className={Style.userInput}>
-			<textarea onInput={onInputTextArea} className={Style.textArea} placeholder={t("userInputPrompt")!!}></textarea>
+			<textarea onInput={onInputTextArea} tabIndex={0} className={Style.textArea} placeholder={t("userInputPrompt")!!}></textarea>
 
 			<div className={Style.bottomToolbar}>
 				<button type={"reset"} onClick={onClickResetButton} className={Style.clearButton} title={t("clearUserInputTitle")!!}>

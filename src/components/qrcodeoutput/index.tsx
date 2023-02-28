@@ -12,8 +12,7 @@ const QRCodeOutput: FC<QRCodeOutputProps> = (props: QRCodeOutputProps) => {
 
 	return (
 		<>
-			<img src={props.dataURL} />
-
+			<img src={props.dataURL} role={"presentation"} />
 			<WatermarkLink text={t("downloadLink")} href={props.dataURL} download={Date.now() + ".png"} icon={IconDownload} />
 		</>
 	);

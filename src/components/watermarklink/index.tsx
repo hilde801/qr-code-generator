@@ -7,7 +7,7 @@ import Style from "./style.module.css";
 
 const WatermarkLink: FC<WatermarkLinkProps> = (props: WatermarkLinkProps) => {
 	return (
-		<a href={props.href} download={props.download} className={Style.watermarkLink} target={props.openInNewTab ? "_blank" : "_self"}>
+		<a href={props.href} download={props.download} tabIndex={0} className={Style.watermarkLink} target={props.openInNewTab ? "_blank" : "_self"}>
 			<props.icon />
 			<p>{props.text}</p>
 			<props.icon />
