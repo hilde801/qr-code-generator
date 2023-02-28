@@ -1,3 +1,5 @@
+![qr-code-generator favicon](/public/icon.svg)
+
 # About QR Code Generator (qr-code-generator)
 
 A simple QR code generator web app.
