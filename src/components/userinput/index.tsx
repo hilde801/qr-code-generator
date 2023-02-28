@@ -2,12 +2,15 @@
 // Copyright (c) 2023 Hilder Gill (hilde801) <hildergill@gmail.com>
 
 import { FC, FormEvent, FormEventHandler, MouseEventHandler, useState } from "react";
+import { useTranslation } from "react-i18next";
 import IconTrash from "../../icons/icontrash";
 import UserInputProps from "./props";
 import Style from "./style.module.css";
 
 const UserInput: FC<UserInputProps> = (props: UserInputProps) => {
 	const [inputLength, setInputLength] = useState<number>(0);
+
+	const { t } = useTranslation();
 
 	const onInputTextArea: FormEventHandler = (event: FormEvent<HTMLTextAreaElement>): void => {
 		event.preventDefault();
@@ -23,7 +26,7 @@ const UserInput: FC<UserInputProps> = (props: UserInputProps) => {
 
 	return (
 		<form className={Style.userInput}>
-			<textarea onInput={onInputTextArea} className={Style.textArea}></textarea>
+			<textarea onInput={onInputTextArea} className={Style.textArea} placeholder={t("userInputPrompt")!!}></textarea>
 
 			<div className={Style.bottomToolbar}>
 				<button type={"reset"} onClick={onClickResetButton} className={Style.clearButton}>
