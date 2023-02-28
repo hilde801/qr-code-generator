@@ -2,16 +2,19 @@
 // Copyright (c) 2023 Hilder Gill (hilde801) <hildergill@gmail.com>
 
 import { FC } from "react";
+import { useTranslation } from "react-i18next";
 import IconDownload from "../../icons/icondownload";
 import WatermarkLink from "../watermarklink";
 import QRCodeOutputProps from "./props";
 
 const QRCodeOutput: FC<QRCodeOutputProps> = (props: QRCodeOutputProps) => {
+	const { t } = useTranslation();
+
 	return (
 		<>
 			<img src={props.dataURL} />
 
-			<WatermarkLink text="Download QR Code" href={props.dataURL} download={Date.now() + ".png"} icon={IconDownload} />
+			<WatermarkLink text={t("downloadLink")} href={props.dataURL} download={Date.now() + ".png"} icon={IconDownload} />
 		</>
 	);
 };

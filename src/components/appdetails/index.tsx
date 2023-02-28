@@ -6,16 +6,19 @@ import WatermarkLink from "../watermarklink";
 import Package from "../../../package.json";
 import IconGithub from "../../icons/icongithub";
 import Style from "./style.module.css";
+import { useTranslation } from "react-i18next";
 
 const AppDetails: FC = () => {
+	const { t } = useTranslation();
+
 	return (
 		<footer className={Style.appDetails}>
 			<h1 className={Style.appTitle}>{Package.displayName}</h1>
 
-			<WatermarkLink href={Package.author.url} text={"By Hilder Gill (hilde801)"} icon={IconGithub} openInNewTab={true} />
-			<WatermarkLink href={Package.repository} text={"View repository on Github"} icon={IconGithub} openInNewTab={true} />
+			<WatermarkLink href={Package.author.url} text={t("authorLink")} icon={IconGithub} openInNewTab={true} />
+			<WatermarkLink href={Package.repository} text={t("repoLink")} icon={IconGithub} openInNewTab={true} />
 
-			<p>Copyright &copy; 2023 {Package.author.name}</p>
+			<p>{t("copyrightText")}</p>
 		</footer>
 	);
 };

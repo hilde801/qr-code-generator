@@ -1,5 +1,14 @@
 {
 	"translation": {
-		"userInputPrompt": "Start typing to generate QR code..."
+		"errorTitle": "Error",
+		"clearUserInputTitle": "Clear input",
+		"characterCounterText_zero": "No data",
+		"characterCounterText_one": "{{count}} character",
+		"characterCounterText_other": "{{count}} characters",
+		"userInputPrompt": "Start typing to generate QR code...",
+		"downloadLink": "Download QR code!",
+		"authorLink": "By Hilder Gill (hilde801)",
+		"repoLink": "View repository on GitHub",
+		"copyrightText": "Copyright © 2023 Hilder Gill"
 	}
 }
