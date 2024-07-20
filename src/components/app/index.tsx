@@ -9,25 +9,25 @@ import { Props as OutputBoxProps } from "../outputbox/props";
 const App: React.FC = () => {
 	const [output, setOutput] = React.useState(<></>);
 
+	const createQrCode = async (input: string) => {
+		try {
+			const props: OutputBoxProps = {
+				dataUri: await QrCode.toDataURL(input),
+				previewContent: await QrCode.toString(input, { width: 128, margin: 0 }),
+			};
+
+			setOutput(<OutputBox {...props} />);
+		} catch (error) {
+			setOutput(<ErrorBox error={error as Error} />);
+		}
+	};
+
 	return (
 		<>
 			<textarea
 				onInput={async (event) => {
 					event.preventDefault();
-
-					try {
-						const userInput: string = event.currentTarget.value;
-
-						const props: OutputBoxProps = {
-							dataUri: await QrCode.toDataURL(userInput),
-							previewContent: await QrCode.toString(userInput, { width: 128, margin: 0 }),
-						};
-
-						setOutput(<OutputBox {...props} />);
-					} catch (error) {
-						console.log(error);
-						setOutput(<ErrorBox error={error as Error} />);
-					}
+					await createQrCode(event.currentTarget.value);
 				}}
 			/>
 
