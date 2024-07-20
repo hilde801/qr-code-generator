@@ -6,7 +6,7 @@ const ErrorBox: React.FC<Props> = (props: Props) => {
 	return (
 		<output>
 			<strong>Error</strong>
-			<p>{props.error.name}</p>
+			<p>{props.error.message}</p>
 		</output>
 	);
 };
