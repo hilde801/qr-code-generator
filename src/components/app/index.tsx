@@ -22,6 +22,12 @@ const App: React.FC = () => {
 		}
 	};
 
+	React.useEffect(() => {
+		createQrCode("").catch((error) => {
+			setOutput(<ErrorBox error={error as Error} />);
+		});
+	}, []);
+
 	return (
 		<>
 			<textarea
