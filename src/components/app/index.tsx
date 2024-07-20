@@ -3,6 +3,8 @@ import React from "react";
 import QrCode from "qrcode";
 
 import ErrorBox from "../errorbox";
+import OutputBox from "../outputbox";
+import {Props as OutputBoxProps} from "../outputbox/props";
 
 const App: React.FC = () => {
 	const [output, setOutput] = React.useState(<></>);
@@ -16,7 +18,14 @@ const App: React.FC = () => {
 					// TODO Add something here later
 
 					try {
-						const uri: string = await QrCode.toDataURL(event.currentTarget.value);
+						const userInput:string = event.currentTarget.value;
+
+const props :OutputBoxProps = {
+dataUri:await await QrCode.toDataURL(userInput),
+previewContent:await QrCode.toString(userInput,{width:128,margin:0}),
+};
+
+setOutput(<OutputBox {...props} />)
 					} catch (error) {
 						console.log(error);
 						setOutput(<ErrorBox error={error as Error} />);
