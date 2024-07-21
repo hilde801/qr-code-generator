@@ -4,15 +4,16 @@
 // =============================================================================
 
 import React from "react";
-import ReactDOM from "react-dom/client";
 
-import App from "./components/app";
+import Props from "./props";
 
-const rootElement = document.getElementById("root")!,
-	root: ReactDOM.Root = ReactDOM.createRoot(rootElement);
+const ErrorBox: React.FC<Props> = (props: Props) => {
+	return (
+		<output>
+			<strong>Error</strong>
+			<p>{props.error.message}</p>
+		</output>
+	);
+};
 
-root.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
-);
+export default ErrorBox;

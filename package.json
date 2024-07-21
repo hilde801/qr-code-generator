@@ -3,6 +3,8 @@
 	"displayName": "QR Code Generator",
 	"version": "prototype-0",
 	"type": "module",
+	"author": "Hilde801",
+	"license": "Apache-2.0",
 	"scripts": {
 		"dev": "npx vite",
 		"build": "npx tsc -b && npx vite build",
