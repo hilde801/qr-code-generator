@@ -6,6 +6,9 @@ import ErrorBox from "../errorbox";
 import OutputBox from "../outputbox";
 import { Props as OutputBoxProps } from "../outputbox/props";
 
+type UserInputEvent = React.FormEvent<HTMLTextAreaElement>;
+type UserInputHandler = React.FormEventHandler<HTMLTextAreaElement>;
+
 const App: React.FC = () => {
 	const [output, setOutput] = React.useState(<></>);
 
@@ -28,14 +31,14 @@ const App: React.FC = () => {
 		});
 	}, []);
 
+	const onInputUserInput: UserInputHandler = async (event: UserInputEvent) => {
+		event.preventDefault();
+		await createQrCode(event.currentTarget.value);
+	};
+
 	return (
 		<>
-			<textarea
-				onInput={async (event) => {
-					event.preventDefault();
-					await createQrCode(event.currentTarget.value);
-				}}
-			/>
+			<textarea onInput={onInputUserInput} />
 
 			{output}
 		</>
