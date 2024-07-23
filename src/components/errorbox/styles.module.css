@@ -4,7 +4,7 @@
 /* ========================================================================== */
 
 .errorBox {
-	background-color: hsl(255, 16%, 8%);
+	background-color: var(--color-foreground);
 	padding: 1rem;
 	display: flex;
 	flex-direction: column;

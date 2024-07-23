@@ -18,7 +18,7 @@
 
 .outputBox > .downloadLink {
 	padding: 0.5rem 1rem;
-	background-color: hsl(225, 0%, 100%);
+	background-color: var(--color-foreground);
 	border-radius: 0.25rem;
 	text-decoration: none;
 	box-shadow: 0 0 2px gray;
@@ -32,10 +32,6 @@
 	.outputBox > .qrCodePreview,
 	.outputBox > .downloadLink {
 		box-shadow: 0 0 2px black;
-	}
-
-	.outputBox > .downloadLink {
-		background-color: hsl(225, 16%, 8%);
 	}
 }
 
