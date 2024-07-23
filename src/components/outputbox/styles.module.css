@@ -13,7 +13,7 @@
 	padding: 1rem;
 	background-color: white;
 	border-radius: 0.25rem;
-	box-shadow: 0 0 2px gray;
+	box-shadow: var(--preset-shadow);
 }
 
 .outputBox > .downloadLink {
@@ -21,18 +21,11 @@
 	background-color: var(--color-foreground);
 	border-radius: 0.25rem;
 	text-decoration: none;
-	box-shadow: 0 0 2px gray;
+	box-shadow: var(--preset-shadow);
 }
 
 .outputBox > .downloadLink:active {
 	box-shadow: none;
-}
-
-@media (prefers-color-scheme: dark) {
-	.outputBox > .qrCodePreview,
-	.outputBox > .downloadLink {
-		box-shadow: 0 0 2px black;
-	}
 }
 
 @media (max-width: 799px) {

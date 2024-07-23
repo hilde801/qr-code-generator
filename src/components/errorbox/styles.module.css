@@ -10,7 +10,7 @@
 	flex-direction: column;
 	gap: 0.5rem;
 	border-radius: 0.25rem;
-	box-shadow: 0 0 2px black;
+	box-shadow:var(--preset-shadow);
 }
 
 /* TODO Change the colour stuff later */
