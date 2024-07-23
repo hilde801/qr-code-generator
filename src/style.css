@@ -16,11 +16,17 @@ body {
 	display: flex;
 }
 
+textarea {
+	resize: none;
+}
+
 #root {
+	display: grid;
+	grid-template-columns: auto calc(150px + 2rem);
+	gap: 1rem;
+
 	margin: auto;
 	width: 80ch;
 	height: 100%;
-
-	/* TODO Remove this later */
-	border: 1px solid red;
+	min-height: 450px;
 }
