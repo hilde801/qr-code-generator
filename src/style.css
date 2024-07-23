@@ -31,7 +31,6 @@ textarea {
 	margin: auto;
 	width: 80ch;
 	height: 100%;
-	min-height: 450px;
 }
 
 @media (prefers-color-scheme: dark) {
