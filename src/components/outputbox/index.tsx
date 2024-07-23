@@ -18,7 +18,7 @@ const OutputBox: React.FC<Props> = (props: Props) => {
 		<output className={Styles.outputBox}>
 			<div className={Styles.qrCodePreview} ref={previewBox} />
 
-			<a href={props.dataUri} download>
+			<a className={Styles.downloadLink} href={props.dataUri} download>
 				Download QR Code!
 			</a>
 		</output>

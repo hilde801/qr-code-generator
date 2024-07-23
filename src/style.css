@@ -14,6 +14,7 @@ body {
 	height: 100vh;
 	width: 100vw;
 	display: flex;
+	background-color: hsl(0, 0%, 90%);
 }
 
 textarea {
@@ -29,4 +30,10 @@ textarea {
 	width: 80ch;
 	height: 100%;
 	min-height: 450px;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: hsl(225, 16%, 16%);
+	}
 }

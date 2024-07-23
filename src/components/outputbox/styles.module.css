@@ -8,4 +8,28 @@
 	padding: 1rem;
 	background-color: white;
 	border-radius: 0.25rem;
+	box-shadow: 0 0 2px gray;
+}
+
+.outputBox > .downloadLink {
+	padding: 0.5rem 1rem;
+	background-color: hsl(225, 0%, 100%);
+	border-radius: 0.25rem;
+	text-decoration: none;
+	box-shadow: 0 0 2px gray;
+}
+
+.outputBox > .downloadLink:active {
+	box-shadow: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	.outputBox > .qrCodePreview,
+	.outputBox > .downloadLink {
+		box-shadow: 0 0 2px black;
+	}
+
+	.outputBox > .downloadLink {
+		background-color: hsl(225, 16%, 8%);
+	}
 }
