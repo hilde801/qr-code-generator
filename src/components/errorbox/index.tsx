@@ -4,12 +4,12 @@
 // =============================================================================
 
 import React from "react";
-
 import Props from "./props";
+import Styles from "./styles.module.css";
 
 const ErrorBox: React.FC<Props> = (props: Props) => {
 	return (
-		<output>
+		<output className={Styles.errorBox}>
 			<strong>Error</strong>
 			<p>{props.error.message}</p>
 		</output>
