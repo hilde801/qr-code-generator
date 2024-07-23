@@ -16,7 +16,7 @@
 	--color-background: hsl(0, 0%, 90%);
 	--color-foreground: hsl(0, 0%, 100%);
 
-	--preset-shadow:0 0 2px gray;
+	--preset-shadow: 0 0 2px gray;
 }
 
 body {
