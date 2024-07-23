@@ -1,7 +1,7 @@
 {
 	"name": "qr-code-generator",
 	"displayName": "QR Code Generator",
-	"version": "prototype-0",
+	"version": "prototype-1",
 	"type": "module",
 	"author": "Hilde801",
 	"license": "Apache-2.0",
