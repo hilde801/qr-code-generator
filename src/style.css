@@ -44,7 +44,7 @@ textarea {
 	#root {
 		width: 100%;
 		grid-template-columns: auto;
-		grid-template-rows: auto calc(128px + 2rem);
+		grid-template-rows: auto calc(150px + 2rem);
 	}
 
 	textarea {

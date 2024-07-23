@@ -33,3 +33,10 @@
 		background-color: hsl(225, 16%, 8%);
 	}
 }
+
+@media (max-width: 799px) {
+	.outputBox {
+		flex-direction: row;
+		align-items: start;
+	}
+}
