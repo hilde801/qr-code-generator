@@ -1,0 +1,11 @@
+.outputBox {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.outputBox > .qrCodePreview {
+	padding: 1rem;
+	background-color: white;
+	border-radius: 0.25rem;
+}
