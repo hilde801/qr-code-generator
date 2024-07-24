@@ -1,0 +1,16 @@
+/* ========================================================================== */
+/* Copyright 2024 Hilde801 (https://github.com/hilde801) */
+/* This file is a part of qr-code-generator */
+/* ========================================================================== */
+
+.errorBox {
+	background-color: var(--color-foreground);
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+	border-radius: 0.25rem;
+	box-shadow: var(--preset-shadow);
+}
+
+/* TODO Change the colour stuff later */

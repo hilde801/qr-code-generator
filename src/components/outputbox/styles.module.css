@@ -1,0 +1,36 @@
+/* ========================================================================== */
+/* Copyright 2024 Hilde801 (https://github.com/hilde801) */
+/* This file is a part of qr-code-generator */
+/* ========================================================================== */
+
+.outputBox {
+	display: flex;
+	flex-direction: column;
+	gap: 0.5rem;
+}
+
+.outputBox > .qrCodePreview {
+	padding: 1rem;
+	background-color: white;
+	border-radius: 0.25rem;
+	box-shadow: var(--preset-shadow);
+}
+
+.outputBox > .downloadLink {
+	padding: 0.5rem 1rem;
+	background-color: var(--color-foreground);
+	border-radius: 0.25rem;
+	text-decoration: none;
+	box-shadow: var(--preset-shadow);
+}
+
+.outputBox > .downloadLink:active {
+	box-shadow: none;
+}
+
+@media (max-width: 799px) {
+	.outputBox {
+		flex-direction: row;
+		align-items: start;
+	}
+}
