@@ -4,6 +4,7 @@
 /* ========================================================================== */
 
 .errorBox {
+	grid-area: output;
 	background-color: var(--color-foreground);
 	padding: 1rem;
 	display: flex;
