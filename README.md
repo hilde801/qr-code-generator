@@ -16,7 +16,8 @@ $ yarn dev
 
 # Credits
 
-- [React](https://react.dev/)
+- [React](https://react.dev)
+- [Vite](https://vitejs.dev)
 - [TypeScript](https://www.typescriptlang.org/)
 - [qrcode](https://www.npmjs.com/package/qrcode)
 - [Prettier](https://prettier.io/)
