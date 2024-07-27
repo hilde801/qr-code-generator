@@ -30,9 +30,13 @@ body {
 
 #root {
 	display: grid;
-	grid-template-rows: max-content auto;
+	grid-template-rows: repeat(2, max-content) auto max-content;
 	grid-template-columns: auto calc(150px + 2rem);
-	grid-template-areas: "userInput output" "userInput .";
+	grid-template-areas:
+		"header header"
+		"userInput output"
+		"userInput ."
+		"footer footer";
 	gap: 1rem;
 
 	width: 80ch;
