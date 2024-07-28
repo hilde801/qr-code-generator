@@ -1,0 +1,14 @@
+import React from "react";
+
+import Styles from "./styles.module.css";
+
+const Footer: React.FC = () => {
+	return (
+		<footer className={Styles.footer}>
+			<p>Copyright &copy; 2024 hilde801</p>
+			<a href="https://github.com/hilde801/qr-code-generator">Github Repository</a>
+		</footer>
+	);
+};
+
+export default Footer;

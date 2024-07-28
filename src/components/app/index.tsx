@@ -10,6 +10,7 @@ import QrCode from "qrcode";
 import ErrorBox from "../errorbox";
 import OutputBox from "../outputbox";
 import { Props as OutputBoxProps } from "../outputbox/props";
+import Footer from "../footer";
 
 type UserInputEvent = React.FormEvent<HTMLTextAreaElement>;
 type UserInputHandler = React.FormEventHandler<HTMLTextAreaElement>;
@@ -46,6 +47,8 @@ const App: React.FC = () => {
 			<textarea onInput={onInputUserInput} />
 
 			{output}
+
+			<Footer />
 		</>
 	);
 };
