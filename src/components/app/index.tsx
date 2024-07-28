@@ -9,9 +9,10 @@ import QrCode from "qrcode";
 
 import ErrorBox from "../errorbox";
 import OutputBox from "../outputbox";
-import { Props as OutputBoxProps } from "../outputbox/props";
 import Footer from "../footer";
 import Header from "../header";
+
+import { Props as OutputBoxProps } from "../outputbox/props";
 
 type UserInputEvent = React.FormEvent<HTMLTextAreaElement>;
 type UserInputHandler = React.FormEventHandler<HTMLTextAreaElement>;
