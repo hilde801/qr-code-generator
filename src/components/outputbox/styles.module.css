@@ -4,6 +4,7 @@
 /* ========================================================================== */
 
 .outputBox {
+	grid-area: output;
 	display: flex;
 	flex-direction: column;
 	gap: 0.5rem;

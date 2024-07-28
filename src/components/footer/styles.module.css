@@ -3,13 +3,9 @@
 /* This file is a part of qr-code-generator */
 /* ========================================================================== */
 
-.errorBox {
-	grid-area: output;
-	background-color: var(--color-foreground);
-	padding: 1rem;
+.footer {
+	grid-area: footer;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	gap: 0.5rem;
-	border-radius: 0.25rem;
-	box-shadow: var(--preset-shadow);
 }
