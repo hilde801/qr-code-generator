@@ -1,6 +1,6 @@
 # About QR Code Generator
 
-QR Code Generator is a simple web application to generate QR codes.
+A simple web application to generate QR codes.
 
 # Getting Started
 
