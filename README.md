@@ -9,12 +9,19 @@ A simple web application to generate QR codes.
 
 ## Getting Started
 
+### Prerequisites
+
+- NodeJS
+- Yarn (optional)
+
+### Building/Running QR Code Generator
+
 ```bash
-# Using npm
+# Building and running QR Code Generator using NPM
 $ npm install
 $ npm run dev
 
-# Using Yarn
+# Building and running QR Code Generator using Yarn
 $ yarn
 $ yarn dev
 ```
