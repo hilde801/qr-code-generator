@@ -1,11 +1,20 @@
-# QR Code Generator
+<table>
+	<tr>
+		<td rowspan="2" style="border-style:none">
+			<img src="./docs/icon.png" alt="Icon" height="64" />
+		</td>
+		<td style="border-style:none">
+			<h1 style="border:none;margin:0">QR Code Generator</h1>
+		</td>
+	</tr>
+	<tr>
+		<td style="border-style:none">
+			<p style="margin:0">A simple web application to generate QR codes.</p>
+		</td>
+	</tr>
+</table>
 
-<img src="./docs/icon.png" alt="Icon" height="50" />
-<img src="./docs/screenshot.png" alt="A screenshot of QR Code Generator" height="300" />
-
-## About
-
-A simple web application to generate QR codes.
+<img src="./docs/screenshot.png" height="300" />
 
 ## Getting Started
 
