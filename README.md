@@ -14,7 +14,7 @@
 	</tr>
 </table>
 
-<img src="./docs/screenshot.png" alt="A screenshot of QR Code Generator in dark mode." height="300" />
+<img src="./docs/screenshot.png" alt="A screenshot of QR Code Generator." height="300" />
 
 ## Getting Started
 
