@@ -1,0 +1,24 @@
+/* ========================================================================== */
+/* Copyright 2024 Hilde801 (https://github.com/hilde801) */
+/* This file is a part of qr-code-generator */
+/* ========================================================================== */
+
+.header {
+	display: grid;
+	grid-template-columns: max-content auto;
+	grid-template-rows: repeat(2, max-content);
+	gap: 0.2rem 0.8rem;
+}
+
+.icon {
+	grid-column: 1/2;
+	grid-row: 1/3;
+	height: 4rem;
+	margin: auto;
+	box-shadow: var(--preset-shadow);
+}
+
+.titleText {
+	grid-column: 2/3;
+	grid-row: 1/2;
+}

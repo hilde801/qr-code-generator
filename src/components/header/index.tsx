@@ -4,11 +4,13 @@
 // =============================================================================
 
 import React from "react";
+import Styles from "./styles.module.css";
 
 const Header: React.FC = () => {
 	return (
-		<header>
-			<h1>QR Code Generator</h1>
+		<header className={Styles.header}>
+			<img className={Styles.icon} src="/icons/icon.png" />
+			<h1 className={Styles.titleText}>QR Code Generator</h1>
 			<p>A simple web application to generate QR codes</p>
 		</header>
 	);
