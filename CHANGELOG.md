@@ -1,3 +1,11 @@
+## Prototype 3
+
+- Filetype fixes in .gitattributes
+- Added header table in [README.md](./README.md)
+- Some additional content changes in [README.md](./README.md)
+- Added application favicons.
+- Added application icon and stylings to [./src/components/header/index.tsx](./src/components/header/index.tsx)
+
 ## Prototype 2
 
 - Added credits to Vite in [README.md](./README.md)
