@@ -1,7 +1,7 @@
 {
 	"name": "qr-code-generator",
 	"displayName": "QR Code Generator",
-	"version": "prototype-2",
+	"version": "prototype-3",
 	"description": "A simple web application to generate QR codes.",
 	"type": "module",
 	"author": "Hilde801",
