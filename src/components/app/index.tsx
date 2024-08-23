@@ -48,7 +48,7 @@ const App: React.FC = () => {
 		<>
 			<Header />
 
-			<textarea onInput={onInputUserInput} />
+			<textarea onInput={onInputUserInput} placeholder="Enter text here..." />
 
 			{output}
 
