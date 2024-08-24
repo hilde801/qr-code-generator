@@ -1,6 +1,7 @@
 {
 	"translation": {
 		"headerPrimary": "QR Code Generator",
-		"headerSecondary": "A simple web application to generate QR codes."
+		"headerSecondary": "A simple web application to generate QR codes.",
+		"userInputPrompt": "Enter text here..."
 	}
 }
