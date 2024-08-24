@@ -6,12 +6,15 @@
 import React from "react";
 import Props from "./props";
 import Styles from "./styles.module.css";
+import { useTranslation } from "react-i18next";
 
 const ErrorBox: React.FC<Props> = (props: Props) => {
+	const { t } = useTranslation();
+
 	return (
 		<output className={Styles.errorBox}>
-			<strong>Error</strong>
-			<p>{props.error.message}</p>
+			<strong>{t("errorTitle")}</strong>
+			<p>{t(props.error.message)}</p>
 		</output>
 	);
 };

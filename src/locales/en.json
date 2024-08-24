@@ -2,6 +2,10 @@
 	"translation": {
 		"headerPrimary": "QR Code Generator",
 		"headerSecondary": "A simple web application to generate QR codes.",
-		"userInputPrompt": "Enter text here..."
+		"userInputPrompt": "Enter text here...",
+		"errorTitle": "Error!",
+
+		"No input text": "No input text.",
+		"The amount of data is too big to be stored in a QR Code": "The input data exceeds maximum character limit."
 	}
 }
