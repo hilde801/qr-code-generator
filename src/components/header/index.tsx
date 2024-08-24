@@ -6,12 +6,16 @@
 import React from "react";
 import Styles from "./styles.module.css";
 
+import { useTranslation } from "react-i18next";
+
 const Header: React.FC = () => {
+	const { t } = useTranslation();
+
 	return (
 		<header className={Styles.header}>
 			<img className={Styles.icon} src="icons/icon.png" />
-			<h1 className={Styles.titleText}>QR Code Generator</h1>
-			<p>A simple web application to generate QR codes</p>
+			<h1 className={Styles.titleText}>{t("headerPrimary")}</h1>
+			<p>{t("headerSecondary")}</p>
 		</header>
 	);
 };
