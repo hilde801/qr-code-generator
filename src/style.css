@@ -15,6 +15,7 @@
 
 	--color-background: hsl(0, 0%, 90%);
 	--color-foreground: hsl(0, 0%, 100%);
+	--color-text: hsl(225, 16%, 16%);
 
 	--preset-shadow: 0 0 2px gray;
 }
@@ -57,6 +58,8 @@ textarea {
 	:root {
 		--color-background: hsl(225, 16%, 8%);
 		--color-foreground: hsl(225, 16%, 16%);
+		--color-text: hsl(0, 0%, 90%);
+
 		--preset-shadow: 0 0 2px black;
 	}
 }
