@@ -4,6 +4,7 @@
 		"headerSecondary": "A simple web application to generate QR codes.",
 		"userInputPrompt": "Enter text here...",
 		"downloadLinkText": "Download QR Code!",
+		"githubRepoText": "Visit Github Repository",
 		"errorTitle": "Error!",
 
 		"No input text": "No input text.",
