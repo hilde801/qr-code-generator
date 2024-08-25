@@ -10,6 +10,6 @@
 		"No input text": "No input text.",
 		"The amount of data is too big to be stored in a QR Code": "The input data exceeds maximum character limit.",
 
-		"altHeaderIcon":"QR Code Generator icon"
+		"altHeaderIcon": "QR Code Generator icon"
 	}
 }
