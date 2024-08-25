@@ -1,7 +1,7 @@
 {
 	"name": "qr-code-generator",
 	"displayName": "QR Code Generator",
-	"version": "prototype-3",
+	"version": "prototype-4",
 	"description": "A simple web application to generate QR codes.",
 	"type": "module",
 	"author": "Hilde801",
@@ -14,9 +14,11 @@
 		"format": "npx prettier --write ."
 	},
 	"dependencies": {
+		"i18next": "^23.14.0",
 		"qrcode": "^1.5.3",
 		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"react-dom": "^18.3.1",
+		"react-i18next": "^15.0.1"
 	},
 	"devDependencies": {
 		"@types/qrcode": "^1.5.5",

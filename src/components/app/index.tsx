@@ -14,6 +14,8 @@ import Header from "../header";
 
 import { Props as OutputBoxProps } from "../outputbox/props";
 
+import { useTranslation } from "react-i18next";
+
 type UserInputEvent = React.FormEvent<HTMLTextAreaElement>;
 type UserInputHandler = React.FormEventHandler<HTMLTextAreaElement>;
 
@@ -44,11 +46,13 @@ const App: React.FC = () => {
 		await createQrCode(event.currentTarget.value);
 	};
 
+	const { t } = useTranslation();
+
 	return (
 		<>
 			<Header />
 
-			<textarea onInput={onInputUserInput} placeholder="Enter text here..." />
+			<textarea onInput={onInputUserInput} placeholder={t("userInputPrompt")} />
 
 			{output}
 
