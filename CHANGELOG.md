@@ -3,6 +3,7 @@
 - Styling fixes
 - Minor accessibility additions
 - Added localisation feature (more languages will be added in the future)
+- Updated dependencies
 
 ## Prototype 3
 
