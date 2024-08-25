@@ -3,6 +3,7 @@
 - Styling fixes
 - Minor accessibility additions
 - Added localisation feature (more languages will be added in the future)
+- Updated [./docs/screenshot.png](./docs/screenshot.png)
 - Updated dependencies
 
 ## Prototype 3
