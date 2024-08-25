@@ -1,3 +1,9 @@
+## Prototype 4
+
+- Styling fixes
+- Minor accessibility additions
+- Added localisation feature (more languages will be added in the future)
+
 ## Prototype 3
 
 - Filetype fixes in .gitattributes
