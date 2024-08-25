@@ -13,6 +13,7 @@ const OutputBox: React.FC<Props> = (props: Props) => {
 
 	React.useEffect(() => {
 		previewBox.current!.innerHTML = props.previewContent;
+		document.querySelector("svg")!.setAttribute("role", "none");
 	});
 
 	const { t } = useTranslation();
