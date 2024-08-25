@@ -13,7 +13,7 @@ const Header: React.FC = () => {
 
 	return (
 		<header className={Styles.header}>
-			<img className={Styles.icon} src="icons/icon.png" />
+			<img className={Styles.icon} src="icons/icon.png" alt={t("altHeaderIcon")} />
 			<h1 className={Styles.titleText}>{t("headerPrimary")}</h1>
 			<p>{t("headerSecondary")}</p>
 		</header>
