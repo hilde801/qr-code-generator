@@ -7,22 +7,21 @@
 	grid-area: output;
 	display: flex;
 	flex-direction: column;
-	gap: 0.5rem;
 }
 
 .outputBox > .qrCodePreview {
 	padding: 1rem;
 	background-color: white;
-	border-radius: 0.25rem;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
 	box-shadow: var(--preset-shadow);
 }
 
 .outputBox > .downloadLink {
 	padding: 0.5rem 1rem;
 	background-color: var(--color-foreground);
-	color: var(--color-text);
-	border-radius: 0.25rem;
-	text-decoration: none;
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
 	box-shadow: var(--preset-shadow);
 }
 
@@ -32,7 +31,21 @@
 
 @media (max-width: 799px) {
 	.outputBox {
-		flex-direction: row;
-		align-items: start;
+		display: grid;
+		grid-template-columns: 100px auto;
+		grid-template-rows: max-content;
+	}
+
+	.outputBox > .qrCodePreview {
+		padding: 0.5rem;
+		border-radius: 0;
+		border-top-left-radius: 0.25rem;
+		border-bottom-left-radius: 0.25rem;
+	}
+
+	.outputBox > .downloadLink {
+		border-radius: 0;
+		border-top-right-radius: 0.25rem;
+		border-bottom-right-radius: 0.25rem;
 	}
 }
