@@ -32,7 +32,7 @@ body {
 #root {
 	display: grid;
 	grid-template-rows: repeat(2, max-content) auto;
-	grid-template-columns: auto calc(180px + 2rem);
+	grid-template-columns: auto max-content;
 	grid-template-areas:
 		"header header"
 		"userInput output"

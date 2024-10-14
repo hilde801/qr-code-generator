@@ -18,12 +18,12 @@
 }
 
 .outputBox > .downloadLink {
-	padding: 0.5rem;
+	padding: 0.5rem 1rem;
 	background-color: var(--color-foreground);
-	color: var(--color-text);
+	/* color: var(--color-text); */
 	border-bottom-left-radius: 0.25rem;
 	border-bottom-right-radius: 0.25rem;
-	text-decoration: none;
+	/* text-decoration: none; */
 	box-shadow: var(--preset-shadow);
 }
 
