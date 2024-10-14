@@ -71,6 +71,10 @@ textarea {
 		justify-content: start;
 	}
 
+	body {
+		height: auto;
+	}
+
 	textarea {
 		height: 500px;
 	}
