@@ -6,6 +6,6 @@
 .footer {
 	grid-area: footer;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	gap: 0.5rem;
 }
