@@ -2,8 +2,8 @@
 
 - [x] Replace .editorconfig for a Prettier config file
 - [x] Convert the favicon for a vector image
-- [ ] Merge the header and footer components
-- [ ] Add more localistions
+- [ ] Overhaul the header and footer components
+- [ ] Add more localisations
   - [ ] Spanish
   - [ ] French
   - [ ] German
