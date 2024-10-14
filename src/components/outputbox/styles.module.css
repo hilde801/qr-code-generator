@@ -7,21 +7,22 @@
 	grid-area: output;
 	display: flex;
 	flex-direction: column;
-	gap: 0.5rem;
 }
 
 .outputBox > .qrCodePreview {
 	padding: 1rem;
 	background-color: white;
-	border-radius: 0.25rem;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
 	box-shadow: var(--preset-shadow);
 }
 
 .outputBox > .downloadLink {
-	padding: 0.5rem 1rem;
+	padding: 0.5rem;
 	background-color: var(--color-foreground);
 	color: var(--color-text);
-	border-radius: 0.25rem;
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
 	text-decoration: none;
 	box-shadow: var(--preset-shadow);
 }
