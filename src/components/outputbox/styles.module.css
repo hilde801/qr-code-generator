@@ -20,10 +20,8 @@
 .outputBox > .downloadLink {
 	padding: 0.5rem 1rem;
 	background-color: var(--color-foreground);
-	/* color: var(--color-text); */
 	border-bottom-left-radius: 0.25rem;
 	border-bottom-right-radius: 0.25rem;
-	/* text-decoration: none; */
 	box-shadow: var(--preset-shadow);
 }
 
@@ -33,7 +31,21 @@
 
 @media (max-width: 799px) {
 	.outputBox {
-		flex-direction: row;
-		align-items: start;
+		display: grid;
+		grid-template-columns: 100px auto;
+		grid-template-rows: max-content;
+	}
+
+	.outputBox > .qrCodePreview {
+		padding: 0.5rem;
+		border-radius: 0;
+		border-top-left-radius: 0.25rem;
+		border-bottom-left-radius: 0.25rem;
+	}
+
+	.outputBox > .downloadLink {
+		border-radius: 0;
+		border-top-right-radius: 0.25rem;
+		border-bottom-right-radius: 0.25rem;
 	}
 }
