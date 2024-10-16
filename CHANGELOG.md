@@ -1,3 +1,10 @@
+## Prototype 5
+
+- Some more styling and layout fixes
+- Converted the favicon into a vector image
+- Replaced .editorconfig for [.prettierrc](./.prettierrc)
+- Updated dependencies
+
 ## Prototype 4
 
 - Styling fixes
