@@ -26,7 +26,7 @@ const App: React.FC = () => {
 		try {
 			const props: OutputBoxProps = {
 				dataUri: await QrCode.toDataURL(input),
-				previewContent: await QrCode.toString(input, { width: 150, margin: 0 }),
+				previewContent: await QrCode.toString(input, { margin: 0 }),
 			};
 
 			setOutput(<OutputBox {...props} />);

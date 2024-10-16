@@ -7,13 +7,14 @@ import React from "react";
 import Styles from "./styles.module.css";
 
 import { useTranslation } from "react-i18next";
+import Favicon from "../../vectors/favicon";
 
 const Header: React.FC = () => {
 	const { t } = useTranslation();
 
 	return (
 		<header className={Styles.header}>
-			<img className={Styles.icon} src="icons/icon.png" alt={t("altHeaderIcon")} />
+			<Favicon className={Styles.icon} />
 			<h1 className={Styles.titleText}>{t("headerPrimary")}</h1>
 			<p>{t("headerSecondary")}</p>
 		</header>

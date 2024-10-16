@@ -6,6 +6,21 @@
 .footer {
 	grid-area: footer;
 	display: flex;
-	flex-direction: row;
-	gap: 0.5rem;
+	flex-direction: column;
+}
+
+.footer > * {
+	padding: 0.5rem 1rem;
+	background-color: var(--color-foreground);
+	box-shadow: var(--preset-shadow);
+}
+
+.footer > *:first-child {
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+}
+
+.footer > *:last-child {
+	border-bottom-left-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
 }

@@ -31,15 +31,13 @@ body {
 
 #root {
 	display: grid;
-	grid-template-rows: repeat(2, max-content) auto max-content;
-	grid-template-columns: auto calc(150px + 2rem);
+	grid-template-rows: repeat(2, max-content) auto;
+	grid-template-columns: auto max-content;
 	grid-template-areas:
 		"header header"
 		"userInput output"
-		"userInput ."
-		"footer footer";
-	gap: 1rem;
-
+		"userInput footer";
+	gap: 0.5rem;
 	width: 80ch;
 	height: 100%;
 }
@@ -71,6 +69,10 @@ textarea {
 		display: flex;
 		flex-direction: column;
 		justify-content: start;
+	}
+
+	body {
+		height: auto;
 	}
 
 	textarea {
