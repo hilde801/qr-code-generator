@@ -7,10 +7,10 @@ import i18next from "i18next";
 import { initReactI18next } from "react-i18next";
 
 import en from "./locales/en.json";
+import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 
-i18next.use(initReactI18next).init({
+i18next.use(I18nextBrowserLanguageDetector).use(initReactI18next).init({
 	resources: { en },
-	lng: "en",
 });
 
 export default i18next;
