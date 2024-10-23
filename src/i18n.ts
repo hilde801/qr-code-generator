@@ -9,14 +9,15 @@ import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 
 import en from "./locales/en.json";
 import es from "./locales/es.json";
+import fr from "./locales/fr.json";
 
 i18next
 	.use(I18nextBrowserLanguageDetector)
 	.use(initReactI18next)
 	.init({
 		fallbackLng: "en",
-		supportedLngs: ["en", "es"],
-		resources: { en, es },
+		supportedLngs: ["en", "es", "fr"],
+		resources: { en, es, fr },
 		detection: {
 			order: ["querystring", "navigator"],
 		},
