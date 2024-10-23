@@ -6,7 +6,7 @@
 - [ ] Add more localisations
   - [x] Spanish
   - [x] French
-  - [ ] German
+  - [x] German
   - [ ] Chinese (Simplified)
   - [ ] Chinese (Traditional)
   - [ ] Japanese
