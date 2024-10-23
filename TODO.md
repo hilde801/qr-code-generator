@@ -5,7 +5,7 @@
 - [x] Overhaul the header and footer components
 - [ ] Add more localisations
   - [x] Spanish
-  - [ ] French
+  - [x] French
   - [ ] German
   - [ ] Chinese (Simplified)
   - [ ] Chinese (Traditional)
