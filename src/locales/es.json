@@ -1,0 +1,15 @@
+{
+	"translation": {
+		"headerPrimary": "Generador de códigos QR",
+		"headerSecondary": "Una aplicación web sencilla para generar códigos QR.",
+		"userInputPrompt": "Ingrese el texto aquí...",
+		"downloadLinkText": "¡Descargue el código QR!",
+		"githubRepoText": "Visite el repositorio de Github",
+		"errorTitle": "¡Error!",
+
+		"No input text": "Sin texto de entrada.",
+		"The amount of data is too big to be stored in a QR Code": "La cantidad de datos es demasiado grande para almacenarse en un código QR.",
+
+		"altHeaderIcon": "Icono del generador de códigos QR"
+	}
+}
