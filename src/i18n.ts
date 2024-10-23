@@ -9,8 +9,16 @@ import { initReactI18next } from "react-i18next";
 import en from "./locales/en.json";
 import I18nextBrowserLanguageDetector from "i18next-browser-languagedetector";
 
-i18next.use(I18nextBrowserLanguageDetector).use(initReactI18next).init({
-	resources: { en },
-});
+i18next
+	.use(I18nextBrowserLanguageDetector)
+	.use(initReactI18next)
+	.init({
+		fallbackLng: "en",
+		supportedLngs: ["en"],
+		resources: { en },
+		detection: {
+			order: ["querystring", "navigator"],
+		},
+	});
 
 export default i18next;
