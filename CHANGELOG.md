@@ -1,3 +1,11 @@
+## Prototype 6
+
+- Added localisation for the following languages
+  - Spanish (es)
+  - French (fr)
+  - German (de)
+- Updated dependencies
+
 ## Prototype 5
 
 - Some more styling and layout fixes
