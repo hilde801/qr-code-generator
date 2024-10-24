@@ -4,9 +4,9 @@
 - [x] Convert the favicon for a vector image
 - [x] Overhaul the header and footer components
 - [ ] Add more localisations
-  - [ ] Spanish
-  - [ ] French
-  - [ ] German
+  - [x] Spanish
+  - [x] French
+  - [x] German
   - [ ] Chinese (Simplified)
   - [ ] Chinese (Traditional)
   - [ ] Japanese

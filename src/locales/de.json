@@ -1,0 +1,15 @@
+{
+	"translation": {
+		"headerPrimary": "QR-Code-Generator",
+		"headerSecondary": "Eine einfache Webanwendung zum Generieren von QR-Codes.",
+		"userInputPrompt": "Geben Sie hier Text ein...",
+		"downloadLinkText": "QR-Code herunterladen!",
+		"githubRepoText": "Github-Repository besuchen",
+		"errorTitle": "Fehler!",
+
+		"No input text": "Kein Eingabetext.",
+		"The amount of data is too big to be stored in a QR Code": "Die Eingabedaten überschreiten die maximale Zeichenanzahl.",
+
+		"altHeaderIcon": "QR-Code-Generator-Symbol"
+	}
+}
