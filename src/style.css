@@ -37,7 +37,7 @@ body {
 		"header header"
 		"userInput output"
 		"userInput footer";
-	gap: 0.5rem;
+	gap: 1rem;
 	width: 80ch;
 	height: 100%;
 }
