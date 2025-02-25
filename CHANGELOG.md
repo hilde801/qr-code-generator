@@ -1,3 +1,8 @@
+## Prototype 7
+
+- Some minor UI changes
+- Updated dependencies
+
 ## Prototype 6
 
 - Added localisation for the following languages
