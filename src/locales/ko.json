@@ -1,0 +1,15 @@
+{
+	"translation": {
+		"headerPrimary": "QR 코드 생성기",
+		"headerSecondary": "QR 코드를 생성하는 간단한 웹 애플리케이션입니다.",
+		"userInputPrompt": "여기에 텍스트를 입력하세요...",
+		"downloadLinkText": "QR 코드를 다운로드하세요!",
+		"githubRepoText": "Github 저장소 방문",
+		"errorTitle": "오류!",
+
+		"No input text": "입력 텍스트가 없습니다.",
+		"The amount of data is too big to be stored in a QR Code": "입력 데이터가 최대 문자 수를 초과했습니다.",
+
+		"altHeaderIcon": "QR 코드 생성기 아이콘"
+	}
+}
