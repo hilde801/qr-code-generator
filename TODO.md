@@ -8,7 +8,7 @@
   - [x] French
   - [x] German
   - [x] Chinese (Simplified)
-  - [ ] Chinese (Traditional)
+  - [x] Chinese (Traditional)
   - [x] Japanese
   - [ ] Korean
   - [ ] Hindi

@@ -2,6 +2,7 @@
 
 - Added localisation for the following languages
   - Simplified Chinese (zh)
+  - Traditional Chinese (zh_Hant)
   - Japanese (ja)
 
 ## Prototype 7
