@@ -12,6 +12,7 @@ import es from "./locales/es.json";
 import fr from "./locales/fr.json";
 import de from "./locales/de.json";
 import zh from "./locales/zh.json";
+import zh_Hant from "./locales/zh_Hant.json";
 import ja from "./locales/ja.json";
 
 i18next
@@ -19,8 +20,8 @@ i18next
 	.use(initReactI18next)
 	.init({
 		fallbackLng: "en",
-		supportedLngs: ["en", "es", "fr", "de", "zh", "ja"],
-		resources: { en, es, fr, de, zh, ja },
+		supportedLngs: ["en", "es", "fr", "de", "zh", "zh_Hant", "ja"],
+		resources: { en, es, fr, de, zh, zh_Hant, ja },
 		detection: {
 			order: ["querystring", "navigator"],
 		},
