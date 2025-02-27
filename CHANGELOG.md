@@ -1,3 +1,9 @@
+## Prototype 8
+
+- Added localisation for the following languages
+  - Simplified Chinese (zh)
+  - Japanese (ja)
+
 ## Prototype 7
 
 - Some minor UI changes

@@ -7,9 +7,9 @@
   - [x] Spanish
   - [x] French
   - [x] German
-  - [ ] Chinese (Simplified)
+  - [x] Chinese (Simplified)
   - [ ] Chinese (Traditional)
-  - [ ] Japanese
+  - [x] Japanese
   - [ ] Korean
   - [ ] Hindi
 - [ ] Overhaul in-file documentations
