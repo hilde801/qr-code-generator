@@ -4,6 +4,7 @@
   - Simplified Chinese (zh)
   - Traditional Chinese (zh_Hant)
   - Japanese (ja)
+  - Korean (ko)
 
 ## Prototype 7
 

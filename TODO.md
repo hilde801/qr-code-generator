@@ -10,7 +10,7 @@
   - [x] Chinese (Simplified)
   - [x] Chinese (Traditional)
   - [x] Japanese
-  - [ ] Korean
+  - [x] Korean
   - [ ] Hindi
 - [ ] Overhaul in-file documentations
 - [ ] Overhaul repo documentations
