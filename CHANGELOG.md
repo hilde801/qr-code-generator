@@ -5,6 +5,7 @@
   - Traditional Chinese (zh_Hant)
   - Japanese (ja)
   - Korean (ko)
+- Updated dependencies
 
 ## Prototype 7
 
