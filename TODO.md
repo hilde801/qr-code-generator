@@ -7,10 +7,10 @@
   - [x] Spanish
   - [x] French
   - [x] German
-  - [ ] Chinese (Simplified)
-  - [ ] Chinese (Traditional)
-  - [ ] Japanese
-  - [ ] Korean
+  - [x] Chinese (Simplified)
+  - [x] Chinese (Traditional)
+  - [x] Japanese
+  - [x] Korean
   - [ ] Hindi
 - [ ] Overhaul in-file documentations
 - [ ] Overhaul repo documentations

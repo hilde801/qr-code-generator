@@ -11,14 +11,18 @@ import en from "./locales/en.json";
 import es from "./locales/es.json";
 import fr from "./locales/fr.json";
 import de from "./locales/de.json";
+import zh from "./locales/zh.json";
+import zh_Hant from "./locales/zh_Hant.json";
+import ja from "./locales/ja.json";
+import ko from "./locales/ko.json";
 
 i18next
 	.use(I18nextBrowserLanguageDetector)
 	.use(initReactI18next)
 	.init({
 		fallbackLng: "en",
-		supportedLngs: ["en", "es", "fr", "de"],
-		resources: { en, es, fr, de },
+		supportedLngs: ["en", "es", "fr", "de", "zh", "zh_Hant", "ja", "ko"],
+		resources: { en, es, fr, de, zh, zh_Hant, ja, ko },
 		detection: {
 			order: ["querystring", "navigator"],
 		},

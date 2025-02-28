@@ -1,0 +1,15 @@
+{
+	"translation": {
+		"headerPrimary": "QR コード ジェネレーター",
+		"headerSecondary": "QR コードを生成するシンプルな Web アプリケーションです。",
+		"userInputPrompt": "ここにテキストを入力してください...",
+		"downloadLinkText": "QR コードをダウンロードしてください!",
+		"githubRepoText": "Github リポジトリにアクセス",
+		"errorTitle": "エラー!",
+
+		"No input text": "入力テキストがありません。",
+		"The amount of data is too big to be stored in a QR Code": "入力データが最大文字数制限を超えています。",
+
+		"altHeaderIcon": "QR コード ジェネレーターのアイコン"
+	}
+}

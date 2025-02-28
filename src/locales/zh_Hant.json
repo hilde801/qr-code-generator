@@ -1,0 +1,15 @@
+{
+	"translation": {
+		"headerPrimary": "QR 圖碼產生器",
+		"headerSecondary": "用於產生 QR 碼的簡單 Web 應用程式。",
+		"userInputPrompt": "在此輸入文字...",
+		"downloadLinkText": "下載二維碼！",
+		"githubRepoText": "存取 Github 儲存庫",
+		"errorTitle": "錯誤！",
+
+		"No input text": "沒有輸入文字。",
+		"The amount of data is too big to be stored in a QR Code": "輸入資料超出最大字元限制。",
+
+		"altHeaderIcon": "QR 碼產生器圖標"
+	}
+}
